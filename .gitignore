@@ -1,0 +1,40 @@
+.localrc
+
+# temporary DYNAMODB folder
+dynamo
+
+# deployments
+.serverless
+
+# Node deps
+node_modules
+
+# IDE
+.idea
+.glide
+
+# Lambda
+.env
+.serverless
+.serverless_env
+local.yml
+vendor
+build
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# Archives
+*.zip
